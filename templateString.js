@@ -15,7 +15,7 @@ const template = `
     *  chamada de método, funções ou qualquer que seja a expressão
     */
 
-console.log(concatena, template)
+console.log(concatena, template),
 
 const up = texto => texto.toUpperCase()
 console.log(`Ei.. ${up("cuidado")}!`) // chama a função up que converte texto para maiúsculo
