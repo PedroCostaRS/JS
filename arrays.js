@@ -11,4 +11,5 @@ console.log(valores)
 console.log(valores.pop()) //deleta o último valor
 delete valores[0] // deleta a partir do índice
 
+
 console.log(typeof valores) // arrays são objetos

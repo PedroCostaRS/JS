@@ -19,4 +19,3 @@ console.log(concatena, template),
 
 const up = texto => texto.toUpperCase()
 console.log(`Ei.. ${up("cuidado")}!`) // chama a função up que converte texto para maiúsculo
- 
