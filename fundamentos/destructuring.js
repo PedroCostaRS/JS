@@ -78,3 +78,13 @@ console.log()
 console.log()
 console.log()
 console.log()
+
+function rand({ min = 0, max = 1000 }) {
+    if (min > max) [min, max] = [max, min]
+    // cria um array para inverter os valores max e min
+    const valor = Math.random() * (max - min) + min
+    return Math.floor(valor)
+}
+
+console.log(rand([50, 40]))
+// executa o if, pois valor min está menor que max
