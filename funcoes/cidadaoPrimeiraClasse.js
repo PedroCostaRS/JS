@@ -23,8 +23,24 @@ obj.falar = function () { return 'E aí' }
 console.log(obj.falar())
 
 // pode ser passada como parâmetro para outra função
-function run(fun) { 
+function run(fun) {
 
-    fun()
+    fun() // executa a função
 
 }
+
+run(function () { console.log('Executando a função passada como parâmetro') })
+
+// Uma função pode retornar ou contar uma função
+function soma(a, b) {
+    return function (c) {
+        console.log(a + b + c)
+    }
+}
+
+soma(2, 3)(4)
+
+//também pode ser chamado atribuindo o valor a uma variavel
+const outraSoma = soma(2, 3)
+outraSoma(4)
+//lembrando que só será executada após preencher a função interna também
