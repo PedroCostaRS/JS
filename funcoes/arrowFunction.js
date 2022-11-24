@@ -15,3 +15,4 @@ let ola = function () {
 
 ola = () => 'Olá' // mesma função simplificada em arrow function
 
+ola = _ => 'Olá' // mesma função, mas tem que colocar underline como parâmetro
