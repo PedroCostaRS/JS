@@ -14,5 +14,6 @@ let ola = function () {
 }
 
 ola = () => 'Olá' // mesma função simplificada em arrow function
-
+console.log(ola())
 ola = _ => 'Olá' // mesma função, mas tem que colocar underline como parâmetro
+console.log(ola())
