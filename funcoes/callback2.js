@@ -19,6 +19,11 @@ let notasBaixas2 = notas.filter(function (nota) {
 console.log(notasBaixas2)
 
 // com arrow function
-
 let notasBaixas3 = notas.filter(nota => nota > 7)
 console.log(notasBaixas3)
+
+
+//usando uma arrow function anterior para fazer apenas o filtro depois
+const notasMenorQue7 = nota => nota < 7
+const notasBaixas4 = notas.filter(notasMenorQue7)
+console.log(notasBaixas4)
