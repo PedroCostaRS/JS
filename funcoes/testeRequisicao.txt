@@ -1,0 +1,2 @@
+Teste em arquivo salvo no gitHub 
+Tentando consumir um arquivo em formato txt
