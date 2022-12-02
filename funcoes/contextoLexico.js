@@ -1,2 +1,11 @@
-// Mínimo ridículo possível
-// Segundo dia sem estudar
+const valor = 'Global'
+
+function minhaFuncao() {
+    console.log(valor)
+}
+
+function exec() {
+    const valor = 'local'
+}
+
+exec()
