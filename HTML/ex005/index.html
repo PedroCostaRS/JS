@@ -6,20 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="sockel.ico" type="image/x-icon">
-    <title>Document</title>
+    <title>Mídias em HTML5</title>
 </head>
 
 <body>
 
     <h1>Trabalhando com Mídias</h1>
 
+    <h2>Imagens</h2>
     <p>Primeira aplicação tratando tamanhos de imagens em aparelhos de diferentes tamanhos de telas</p>
-
+    
+    
     <picture>
         <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
         <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
         <img src="img/foto-g.png" alt="imagem flexível">
     </picture>
+    
+    <h2>Áudios</h2>
+    <p>Primeira aplicação tratando áudios em dispositivos</p>
+
+    <audio src="media/lei110912005.mp3" controls autoplay></audio>
+
+    <audio preload="metadata" controls autoplay>
+        <source src="media/lei110912005.mp3" type="media/mpeg">
+        <source src="media/lei110912005.ogg" type="media/ogg">
+        <source src="media/lei110912005.wav" type="media/wav">
+
+        <a href="media/lei110912005.mp3">Infelizmente não foi possível reproduzir seu áudio, clique aqui e baixe-o gratuitamente</a>
+    </audio>
         
 </body>
 
