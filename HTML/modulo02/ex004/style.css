@@ -11,11 +11,16 @@ body {
     background-image: linear-gradient(to right, #D9CBBA, #F2E5D5);
 }
 
-h1, h2 {
-    font-family: 'Work Sans', sans-serif; /* font importada do fonts.googleapis.com */
-    font-size: 2em; /* tamanho relativo 1em == 16px; h1 == 32px */
-    font-weight: bold; /* peso da fonte */
+h1,
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    /* font importada do fonts.googleapis.com */
+    font-size: 2em;
+    /* tamanho relativo 1em == 16px; h1 == 32px */
+    font-weight: bold;
+    /* peso da fonte */
 }
+
 main {
     background-color: white;
     margin: auto;
@@ -23,19 +28,37 @@ main {
     width: 600px;
 
     border-radius: 10px;
-    box-shadow:  10px 10px 10px #A69580;
+    box-shadow: 10px 10px 10px #A69580;
 }
 
-h1{
+h1 {
     color: #261A0B;
     text-align: center;
     text-shadow: 1px 1px 2px #A69580;
 }
 
-h2{
+h2#alinhamento {
+    text-align: center;
+    color: #74634eab;
+}
+
+h2 {
     color: #4e463c;
 }
 
 p {
     text-align: justify;
+}
+
+.titulo {
+    background-color: #F2E5D5;
+    text-align: center;
+}
+
+.claro {
+    color: #af7835;
+}
+
+.escuro {
+    color: #261A0B;
 }
