@@ -9,6 +9,9 @@ body {
     background-image: linear-gradient(to right, #D9CBBA, #F2E5D5);
 }
 
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
 main {
     background-color: white;
     margin: auto;
