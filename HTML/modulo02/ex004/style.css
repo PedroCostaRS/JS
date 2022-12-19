@@ -12,7 +12,9 @@ body {
 }
 
 h1, h2 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif; /* font importada do fonts.googleapis.com */
+    font-size: 2em; /* tamanho relativo 1em == 16px; h1 == 32px */
+    font-weight: bold; /* peso da fonte */
 }
 main {
     background-color: white;
