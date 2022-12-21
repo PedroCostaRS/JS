@@ -66,3 +66,7 @@ p {
 .negrito {
     font-weight: bold;
 }
+
+table {
+    border: #261A0B;
+}
