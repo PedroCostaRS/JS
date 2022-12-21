@@ -62,3 +62,7 @@ p {
 .escuro {
     color: #261A0B;
 }
+
+.negrito {
+    font-weight: bold;
+}
