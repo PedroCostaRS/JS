@@ -70,3 +70,15 @@ p {
 table {
     border: #261A0B;
 }
+
+div {
+    background-color: #D9CBBA;
+    width: 150px;
+    height: 150px;
+    display: inline-flex;
+    border:  1px solid black;
+}
+
+div:hover {
+    background-color: #A69580;
+}
