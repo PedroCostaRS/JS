@@ -76,7 +76,20 @@ div {
     width: 150px;
     height: 150px;
     display: inline-flex;
-    border:  1px solid black;
+    border: 1px solid black;
+}
+
+div#fd1 {
+    width: 500px;
+    height: 500px;
+}
+
+div#fd1 > p {
+    display: none;
+}
+
+div#fd1:hover > p {
+    display: block;
 }
 
 div:hover {
